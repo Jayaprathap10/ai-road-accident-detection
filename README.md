@@ -1,49 +1,34 @@
-# 🚗 AI Road Accident Detection (YOLO + CNN)
+# 🚗 AI Road Accident Detection System (YOLO + CNN)
 
 ## 📌 Overview
-A real-time road accident detection system using YOLO and CNN models to identify accidents from live video feeds and trigger emergency alerts.
+A real-time hybrid accident detection system using YOLOv8 and CNN to identify road accidents from live video feeds and automatically send emergency alerts via Telegram.
+
+---
 
 ## 🎯 Objective
-To reduce emergency response time by automatically detecting accidents using computer vision.
+To reduce emergency response time by detecting accidents in real-time using computer vision and AI.
 
 ---
 
 ## 🛠 Tech Stack
 - Python
-- YOLO (You Only Look Once)
-- CNN
+- YOLOv8 (Ultralytics)
+- TensorFlow/Keras
 - OpenCV
 - NumPy
+- Telegram Bot API
 
 ---
 
 ## 🚀 Features
-✔ Real-time accident detection  
-✔ Video frame analysis  
-✔ Emergency alert triggering  
-✔ Computer vision pipeline  
+✔ Real-time vehicle detection  
+✔ CNN-based accident severity classification  
+✔ Automated Telegram alerts  
+✔ Live video monitoring  
+✔ Severity labeling (Minor/Moderate/Severe)
 
 ---
 
-## ▶️ How It Works
-1. Capture live video feed  
-2. Process frames using YOLO model  
-3. CNN classifies accident scenarios  
-4. Trigger alert when accident detected
+## ▶️ How to Run
 
----
-
-## 📈 Future Improvements
-- GPS-based alert system  
-- Cloud-based monitoring  
-- Mobile notification system
-
----
-
-## 📷 Output Example
-(Add screenshots later if available)
-
----
-
-## 👨‍💻 Author
-Jayaprathap P
+### 1️⃣ Install dependencies
